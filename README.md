@@ -8,10 +8,10 @@ OGRE version: 1.9.0.
 
 Commands:
 To run rviz:
-"$rosrun mt_arm rviz.launch" 
+"$rosrun mt_arm rviz.launch". 
 To run gazebo:
 "$roslaunch gazebo_ros empty_world.launch"
-"$rosrun mt_arm gazebo.launch"
+"$rosrun mt_arm gazebo.launch".
 
 Debugging:
 #1. After finishing RViz simulation and starting gazebo, make sure to make an empty world.
