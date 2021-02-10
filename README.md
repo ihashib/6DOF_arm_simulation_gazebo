@@ -1,14 +1,14 @@
-# 6DOF_arm_simulation_gazebo
-Uses ROS Melodic on Kubuntu 18.04.
-URDF based simulation.
-Gazebo Version: 9.0.
-RViz version: 1.13.15.
-Qt version: 5.9.5.
-OGRE version: 1.9.0.
+# 6DOF_arm_simulation_gazebo          
+Uses ROS Melodic on Kubuntu 18.04.                           
+URDF based simulation.                                
+Gazebo Version: 9.0.                            
+RViz version: 1.13.15.                         
+Qt version: 5.9.5.                    
+OGRE version: 1.9.0.                                  
 
 Commands:                         
 To run rviz:         
-"$rosrun mt_arm rviz.launch". 
+"$rosrun mt_arm rviz.launch".                     
 To run gazebo:                    
 "$roslaunch gazebo_ros empty_world.launch"                
 "$rosrun mt_arm gazebo.launch".
