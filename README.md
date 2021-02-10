@@ -18,7 +18,7 @@ $rostopic pub -1 /mt_arm/joint1_position_controller/command std_msgs/Float64 "da
 
 Debugging:
 #1. After finishing RViz simulation and starting gazebo, make sure to make an empty world.
-roslaunch gazebo_ros empty_world.launch
+roslaunch gazebo_ros empty_world.launch                                                                           
 #2. When implementing the controllers for gazebo, make sure to install the controllers if it gives an error in ROS melodic.
 $sudo apt-get install ros-melodi-joint-state-controller        
 $sudo apt-get install ros-melodic-effort-controllers           
