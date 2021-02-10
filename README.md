@@ -6,11 +6,11 @@ RViz version: 1.13.15.
 Qt version: 5.9.5.
 OGRE version: 1.9.0.
 
-Commands:
-To run rviz:
+Commands:                         
+To run rviz:         
 "$rosrun mt_arm rviz.launch". 
-To run gazebo:
-"$roslaunch gazebo_ros empty_world.launch"
+To run gazebo:                    
+"$roslaunch gazebo_ros empty_world.launch"                
 "$rosrun mt_arm gazebo.launch".
 
 Using the joint state controller to control arm:
