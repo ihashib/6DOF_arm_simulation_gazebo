@@ -14,7 +14,7 @@ To run gazebo:
 "$rosrun mt_arm gazebo.launch".
 
 Using the joint state controller to control arm:
-# rostopic pub -1 /mt_arm/joint1_position_controller/command std_msgs/Float64 "data: 1.0" 
+$rostopic pub -1 /mt_arm/joint1_position_controller/command std_msgs/Float64 "data: 0.0"
 
 Debugging:
 #1. After finishing RViz simulation and starting gazebo, make sure to make an empty world.
